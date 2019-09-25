@@ -43,7 +43,7 @@ def publish_topic():
 
     # Create a node 'ros_node_publisher'
     ### START CODE HERE ###
-    rate=rospy.Rate(9)
+    rate=rospy.Rate(10)
 	### END CODE HERE ###
         
     # Set a publishing rate of 10 hz (10 messages per second)
